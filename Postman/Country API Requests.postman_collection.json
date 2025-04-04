@@ -1,0 +1,245 @@
+{
+	"info": {
+		"_postman_id": "0da9c21a-2272-45e0-9230-f4bebd9929ba",
+		"name": "Country API Requests",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "43751824",
+		"_collection_link": "https://vinaykumar-5689612.postman.co/workspace/Vinaykumar's-Workspace~193d0e65-c505-4672-81dc-7c4ace8fbe82/collection/43751824-0da9c21a-2272-45e0-9230-f4bebd9929ba?action=share&source=collection_link&creator=43751824"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJVc2VyN0BnbWFpbC5jb20iLCJpYXQiOjE3NDM3NjM4OTQsImV4cCI6MTc0Mzg1MDI5NH0.OvdVe7iaak1qFegehRsAiDmTCkIznTZQUEzKlYUX7M_iu-IX2Ina8IIZFVnP5RSCSZzmkq6kR4VMFFg4PhpikQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \r\n    \"email\":\"User7@gmail.com\",\r\n    \"password\":\"User777\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/countries",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"countries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJVc2VyN0BnbWFpbC5jb20iLCJpYXQiOjE3NDM3NjM4OTQsImV4cCI6MTc0Mzg1MDI5NH0.OvdVe7iaak1qFegehRsAiDmTCkIznTZQUEzKlYUX7M_iu-IX2Ina8IIZFVnP5RSCSZzmkq6kR4VMFFg4PhpikQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/countries/86",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"countries",
+						"86"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJVc2VyN0BnbWFpbC5jb20iLCJpYXQiOjE3NDM3NjM4OTQsImV4cCI6MTc0Mzg1MDI5NH0.OvdVe7iaak1qFegehRsAiDmTCkIznTZQUEzKlYUX7M_iu-IX2Ina8IIZFVnP5RSCSZzmkq6kR4VMFFg4PhpikQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n        \"name\": \"Iravan\",\r\n        \"capital\": \"Bagh\",\r\n        \"region\": \"Asia\",\r\n        \"population\": 40222503 \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/countries",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"countries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJVc2VyN0BnbWFpbC5jb20iLCJpYXQiOjE3NDM3NjM4OTQsImV4cCI6MTc0Mzg1MDI5NH0.OvdVe7iaak1qFegehRsAiDmTCkIznTZQUEzKlYUX7M_iu-IX2Ina8IIZFVnP5RSCSZzmkq6kR4VMFFg4PhpikQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n    \"name\": \"India , Karnataka\",\r\n    \"capital\": \"New Delhi , Bng\",\r\n    \"region\": \"Asia\",\r\n    \"population\": 1380004385\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/countries/86",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"countries",
+						"86"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJVc2VyN0BnbWFpbC5jb20iLCJpYXQiOjE3NDM3NjM4OTQsImV4cCI6MTc0Mzg1MDI5NH0.OvdVe7iaak1qFegehRsAiDmTCkIznTZQUEzKlYUX7M_iu-IX2Ina8IIZFVnP5RSCSZzmkq6kR4VMFFg4PhpikQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/countries/230",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"countries",
+						"230"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

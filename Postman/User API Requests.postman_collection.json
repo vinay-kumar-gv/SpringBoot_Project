@@ -1,0 +1,153 @@
+{
+	"info": {
+		"_postman_id": "bc9c0681-c2a5-4989-b4f5-857002d77a2d",
+		"name": "User API Requests",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "43751824",
+		"_collection_link": "https://vinaykumar-5689612.postman.co/workspace/Vinaykumar's-Workspace~193d0e65-c505-4672-81dc-7c4ace8fbe82/collection/43751824-bc9c0681-c2a5-4989-b4f5-857002d77a2d?action=share&source=collection_link&creator=43751824"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyNkBnbWFpbC5jb20iLCJpYXQiOjE3NDM3NjIzMTcsImV4cCI6MTc0Mzg0ODcxN30.17qhFxPVTWiSWv1a8lJQNcffxT2Np_DXJTe-BS5NvLpdOxC4gZKqttSfEpSffsmn2iS8iCHOvq9Xf7NEQKQ2CA",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n    \"email\":\"user6@gmail.com\",\r\n    \"password\":\"user666\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/users/me",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"users",
+						"me"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyNkBnbWFpbC5jb20iLCJpYXQiOjE3NDM3NjIzMTcsImV4cCI6MTc0Mzg0ODcxN30.17qhFxPVTWiSWv1a8lJQNcffxT2Np_DXJTe-BS5NvLpdOxC4gZKqttSfEpSffsmn2iS8iCHOvq9Xf7NEQKQ2CA",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{  \r\n     \"name\": \"DemoUser6\",\r\n    \"email\": \"user6@gmail.com\"\r\n    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/users/me",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"users",
+						"me"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyNkBnbWFpbC5jb20iLCJpYXQiOjE3NDM3NjIzMTcsImV4cCI6MTc0Mzg0ODcxN30.17qhFxPVTWiSWv1a8lJQNcffxT2Np_DXJTe-BS5NvLpdOxC4gZKqttSfEpSffsmn2iS8iCHOvq9Xf7NEQKQ2CA",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{  \r\n     \"name\": \"DemoUser6\",\r\n    \"email\": \"user6@gmail.com\"\r\n    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/users/me/8",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"users",
+						"me",
+						"8"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
